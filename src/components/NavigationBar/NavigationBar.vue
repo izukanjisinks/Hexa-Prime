@@ -13,7 +13,7 @@ const props = defineProps({
 
 <template>
     <div class="mx-2">
-        <nav class="fixed top-4 left-1/2 -translate-x-1/2 flex flex-row justify-center items-center h-12 px-6 max-w-2xl shadow-lg rounded-xl dark:text-white backdrop-blur-md bg-white/60 dark:bg-gray-800/60 z-50">
+        <nav class="fixed top-4 left-1/2 -translate-x-1/2 flex flex-row justify-center items-center h-12 px-6 w-full max-w-2xl shadow-lg rounded-xl dark:text-white backdrop-blur-md bg-white/60 dark:bg-gray-800/60 z-50">
         <!-- Logo  -->
         <!-- flex-shrink-0 prevents logo from being shrinking or bring compressed on small screens  -->
         <div class="flex-shrink-0 text-2xl font-bold text-amber-400 mr-4">
