@@ -12,23 +12,25 @@ const props = defineProps({
 
 
 <template>
-    <nav class="py-6 mx-6">
-        <div class="flex flex-row justify-center bg-white h-12 w-full max-w-2xl shadow-lg rounded-xl items-center mx-auto dark:text-white dark:bg-slate-800">
-        <!-- Logo / Company Name -->
-        <div class="text-2xl font-bold text-amber-400 mr-6">
-         <img 
-         :src="props.isDark ? '/logo/HexaPrime-DarkMode.png' : '/logo/HexaPrime-LightMode.png'"
-         class="h-[50px]">
+    <div class="mx-2">
+        <nav class="fixed top-4 left-1/2 -translate-x-1/2 flex flex-row justify-center items-center h-12 px-6 max-w-2xl shadow-lg rounded-xl dark:text-white backdrop-blur-md bg-white/60 dark:bg-gray-800/60 z-50">
+        <!-- Logo  -->
+        <!-- flex-shrink-0 prevents logo from being shrinking or bring compressed on small screens  -->
+        <div class="flex-shrink-0 text-2xl font-bold text-amber-400 mr-4">
+            <router-link to="/" class="flex items-center">
+                <img 
+                :src="props.isDark ? '/logo/HexaPrime-DarkMode.png' : '/logo/HexaPrime-LightMode.png'"
+                class="h-[30px]"/>
+            </router-link>
         </div>
 
-        <!-- Menu Items -->
+        <!-- Nav Items -->
         <ul class="flex space-x-6 text-md">
-          <li><a href="#" class="hover:text-amber-400 transition">Home</a></li>
-          <li><a href="#" class="hover:text-amber-400 transition">About</a></li>
-          <li><a href="#" class="hover:text-amber-400 transition">Services</a></li>
-          <li><a href="#" class="hover:text-amber-400 transition">Portfolio</a></li>
-          <li><a href="#" class="hover:text-amber-400 transition">Contact</a></li>
+          <li><router-link to="/" class="hover:text-amber-400 transition">Home</router-link></li>
+          <li><router-link to="/services" class="hover:text-amber-400 transition">Services</router-link></li>
+          <li><router-link to="/about" class="hover:text-amber-400 transition">About</router-link></li>
+          <li><router-link to="/contact" class="hover:text-amber-400 transition">Contact</router-link></li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
 </template>

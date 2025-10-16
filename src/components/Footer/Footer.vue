@@ -15,9 +15,11 @@ import { defineProps } from 'vue'
 
 <template>
     <footer class="bg-slate-200 dark:bg-slate-800 h-35 mt-auto flex items-center justify-center">
+    <router-link to="/" class="flex items-center">
       <img 
        :src="props.isDark ? '/logo/HexaPrime-DarkMode.png' : '/logo/HexaPrime-LightMode.png'"
-       class="h-[50px]">
+       class="h-[50px] fit-cover"/>
+    </router-link>
        <p :class="props.isDark ? 'text-white' : 'text-black'">© 2025 HexaPrime. All rights reserved.</p>
       
       <!-- From Uiverse.io by SmookyDev --> 
