@@ -1,4 +1,5 @@
-(/logo/HexaPrime-DarkMode.png) Hexa-Prime
+
+<img src="public/logo/HexaPrime-DarkMode.png" alt="Hexa-Prime Logo" width="150" /> 
 
 This template should help get you started developing with Vue 3 in Vite.
 
