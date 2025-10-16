@@ -1,4 +1,4 @@
-# Hexa-Prime
+![Hexa-Prime Logo](/logo/HexaPrime-LightMode.png) Hexa-Prime
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -38,11 +38,11 @@ npm run build
 ```
 
 ## Commit Guidlines
-| Type      | Description                                                                       | Example                                    |
-| --------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
-| feat:     | Introduces a new feature or enhancement                                           | feat: implement user authentication module |
-| fix:      | Fixes a bug, error, or issue in existing code                                     | fix: correct navbar position on scroll     |
-| docs:     | Documentation changes only (no code changes)                                      | docs: add API usage example to README      |
-| refactor: | Code changes that improve structure or readability without changing functionality | refactor: simplify login validation logic  |
-| chore:    | Maintenance tasks, build updates, dependency changes, or configuration updates    | chore: update npm packages and lint config |
+| Type         | Description                                                                       | Example                                    |
+| ------------ | --------------------------------------------------------------------------------- | ------------------------------------------ |
+| ✨ feat:      | Introduces a new feature or enhancement                                           | feat: implement user authentication module |
+| 🐛 fix:      | Fixes a bug, error, or issue in existing code                                     | fix: correct navbar position on scroll     |
+| 📝 docs:     | Documentation changes only (no code changes)                                      | docs: add API usage example to README      |
+| ♻️ refactor: | Code changes that improve structure or readability without changing functionality | refactor: simplify login validation logic  |
+| ⚙️ chore:    | Maintenance tasks, build updates, dependency changes, or configuration updates    | chore: update npm packages and lint config |
 
