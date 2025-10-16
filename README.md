@@ -36,3 +36,13 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Commit Guidlines
+| Type      | Description                                                                       | Example                                    |
+| --------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
+| feat:     | Introduces a new feature or enhancement                                           | feat: implement user authentication module |
+| fix:      | Fixes a bug, error, or issue in existing code                                     | fix: correct navbar position on scroll     |
+| docs:     | Documentation changes only (no code changes)                                      | docs: add API usage example to README      |
+| refactor: | Code changes that improve structure or readability without changing functionality | refactor: simplify login validation logic  |
+| chore:    | Maintenance tasks, build updates, dependency changes, or configuration updates    | chore: update npm packages and lint config |
+
