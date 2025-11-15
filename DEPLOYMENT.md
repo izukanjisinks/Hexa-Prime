@@ -46,7 +46,7 @@ This command will:
 ### 6. Access Your Website
 Your site will be available at:
 ```
-https://YOUR_USERNAME.github.io/Hexa-Prime/
+https://izukanjisinks.github.io/Hexa-Prime/
 ```
 
 ## Updating Your Website
