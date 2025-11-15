@@ -19,7 +19,7 @@ const props = defineProps({
         <div class="flex-shrink-0 text-2xl font-bold text-amber-400 mr-4">
             <router-link to="/" class="flex items-center">
                 <img 
-                :src="props.isDark ? '/logo/HexaPrime-DarkMode.png' : '/logo/HexaPrime-LightMode.png'"
+                :src="props.isDark ? '/Hexa-Prime/logo/HexaPrime-DarkMode.png' : '/Hexa-Prime/logo/HexaPrime-LightMode.png'"
                 class="h-[30px]"/>
             </router-link>
         </div>

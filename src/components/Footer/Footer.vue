@@ -21,7 +21,7 @@ import { defineProps } from 'vue'
           <div class="col-span-2">
             <router-link to="/" class="flex items-center mb-4">
               <img 
-                :src="props.isDark ? '/logo/HexaPrime-DarkMode.png' : '/logo/HexaPrime-LightMode.png'"
+                :src="props.isDark ? '/Hexa-Prime/logo/HexaPrime-DarkMode.png' : '/Hexa-Prime/logo/HexaPrime-LightMode.png'"
                 class="h-[40px] fit-cover"/>
             </router-link>
             <p class="text-slate-600 dark:text-slate-400 mb-4">
