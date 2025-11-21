@@ -116,8 +116,8 @@
       </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-r from-amber-500 to-orange-500">
+    <!-- Get Started Section -->
+    <section class="py-30 bg-gradient-to-r from-amber-500 to-orange-500">
       <div class="max-w-4xl mx-auto px-6 text-center">
         <h2 class="text-4xl font-bold text-white mb-6">
           Ready to Get Started?
